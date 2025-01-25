@@ -1,10 +1,34 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "note-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is simple NodeJS Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
-  "private": true
+  "private": true,
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Vladimir Grygoriev <vovagrigoriev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/yargs": "^17.0.33",
+    "bcrypt": "^5.1.1",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "validator": "^13.12.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
